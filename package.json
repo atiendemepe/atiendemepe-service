@@ -1,0 +1,33 @@
+{
+  "name": "atiendemepe-service",
+  "version": "1.0.0",
+  "description": "Backend service for atiendeme",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --watch src app.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "husky": {
+    "pre-commit": "eslint ."
+  },
+  "keywords": [
+    "service"
+  ],
+  "author": "jaxkodex",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "husky": "^4.2.3",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "knex": "^0.20.11",
+    "pg": "^7.18.2"
+  }
+}

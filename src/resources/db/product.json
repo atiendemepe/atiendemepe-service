@@ -1,0 +1,19 @@
+{
+  "id": "06024039-24df-4de6-9be6-683960987d1e",
+  "name": "Hamburguesa Bembos Clásica",
+  "type": "REGULAR",
+  "description": "Hamburguesa a la parrilla, lechuga, tomate y mayonesa",
+  "notes": "Promoción válida solo para Delivery Web y App Bembos.",
+  "presentations": [
+    {
+      "name": "Mediana",
+      "price": 10.9,
+      "currency": "PEN"
+    },
+    {
+      "name": "Grande",
+      "price": 13.9,
+      "currency": "PEN"
+    }
+  ]
+}
